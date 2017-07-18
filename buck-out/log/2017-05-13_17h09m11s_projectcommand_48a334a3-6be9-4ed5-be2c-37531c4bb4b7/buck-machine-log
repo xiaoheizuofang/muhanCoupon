@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"48a334a3-6be9-4ed5-be2c-37531c4bb4b7","superConsoleEnabled":true,"isDaemon":false,"subCommand":"projectcommand","commandArgs":["project","mhc"],"unexpandedCommandArgs":["project","mhc"],"buckLogDir":"buck-out/log","timestampMillis":1494695351173}
+ParseStarted {"timestamp":1494695359535}
+ParseFinished {"timestamp":1494695359553}
+ParseStarted {"timestamp":1494695359594}
+ParseFinished {"timestamp":1494695359595}
+UploadToCacheStatistics {"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

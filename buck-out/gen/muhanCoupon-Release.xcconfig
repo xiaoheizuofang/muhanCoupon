@@ -1,0 +1,18 @@
+BUILT_PRODUCTS_DIR = $SYMROOT/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+CLANG_CXX_LANGUAGE_STANDARD = c++14
+CONFIGURATION_BUILD_DIR = $BUILT_PRODUCTS_DIR
+FRAMEWORK_SEARCH_PATHS = $SDKROOT/System/Library/Frameworks $BUILT_PRODUCTS_DIR $SDKROOT/System/Library/Frameworks $BUILT_PRODUCTS_DIR
+HEADER_SEARCH_PATHS = buck-out/gen/_p/zM2oZvPDGJ-priv/.hmap buck-out/gen/_p/zM2oZvPDGJ-pub/.hmap buck-out buck-out/gen/_p/zM2oZvPDGJ-priv/.hmap buck-out/gen/_p/zM2oZvPDGJ-pub/.hmap buck-out
+INFOPLIST_FILE = Info.plist
+IPHONEOS_DEPLOYMENT_TARGET = 10.3
+LIBRARY_SEARCH_PATHS = $BUILT_PRODUCTS_DIR $BUILT_PRODUCTS_DIR
+OTHER_CFLAGS = -g '-std=c11' -fobjc-arc -Wno-objc-designated-initializers -g '-std=c11' -fobjc-arc -Wno-objc-designated-initializers
+OTHER_CPLUSPLUSFLAGS = -g '-std=c++14' -fobjc-arc -Wno-objc-designated-initializers -iquote /Users/chengxiang/Projects/muhanCoupon -g -g '-std=c++14' -fobjc-arc -Wno-objc-designated-initializers
+OTHER_LDFLAGS = $(inherited) 
+PRODUCT_NAME = muhanCoupon
+REPO_ROOT = /Users/chengxiang/Projects/muhanCoupon
+SDKROOT = iphoneos
+SRCROOT = .
+TARGET_NAME = muhanCoupon
+USE_HEADERMAP = NO
+WRAPPER_EXTENSION = app

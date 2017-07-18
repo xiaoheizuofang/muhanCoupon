@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7A30F040F82B53500000000 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E290F82B53500000000 /* Default-736h.png */; };
+		E7A30F041188565800000000 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E291188565800000000 /* AVFoundation.framework */; };
+		E7A30F043C58FAD300000000 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E293C58FAD300000000 /* Icon-60@2x.png */; };
+		E7A30F04480912B800000000 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29480912B800000000 /* Default-667h.png */; };
+		E7A30F046F9DE04800000000 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E296F9DE04800000000 /* Icon@2x.png */; };
+		E7A30F04856440A900000000 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29856440A900000000 /* Icon-60.png */; };
+		E7A30F048735484A00000000 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E298735484A00000000 /* Icon-72.png */; };
+		E7A30F04881E000E00000000 /* MuhanCouponPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29881E000E00000000 /* MuhanCouponPasswordViewController.m */; };
+		E7A30F048FCB7D1E00000000 /* MuhanCouponScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E298FCB7D1E00000000 /* MuhanCouponScanQRCodeViewController.m */; };
+		E7A30F049070556C00000000 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E299070556C00000000 /* Icon-Small-50@2x.png */; };
+		E7A30F04A05FC39200000000 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A05FC39200000000 /* Icon-72@2x.png */; };
+		E7A30F04A21C9E8300000000 /* AppRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A21C9E8300000000 /* AppRootViewController.m */; };
+		E7A30F04A6018C7A00000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29A6018C7A00000000 /* CoreGraphics.framework */; };
+		E7A30F04A99F94B000000000 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A99F94B000000000 /* Icon-Small-50.png */; };
+		E7A30F04AE317AA300000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29AE317AA300000000 /* Foundation.framework */; };
+		E7A30F04BF88817800000000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29BF88817800000000 /* main.m */; };
+		E7A30F04C3B9C6B200000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29C3B9C6B200000000 /* UIKit.framework */; };
+		E7A30F04C55E776400000000 /* MuhanCouponManualInputCouponCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29C55E776400000000 /* MuhanCouponManualInputCouponCodeViewController.m */; };
+		E7A30F04D7CD575400000000 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29D7CD575400000000 /* Icon.png */; };
+		E7A30F04DAB1A72500000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29DAB1A72500000000 /* AppDelegate.m */; };
+		E7A30F04E1DCBE7800000000 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29E1DCBE7800000000 /* Default-568h.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DD70E29001F47FB00000000 /* BUCK */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUCK; sourceTree = SOURCE_ROOT; };
+		1DD70E2906C06BEE00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1DD70E290F82B53500000000 /* Default-736h.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Default-736h.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E291188565800000000 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1DD70E293C58FAD300000000 /* Icon-60@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-60@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29431B542E00000000 /* muhanCoupon-Release.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "muhanCoupon-Release.xcconfig"; path = "buck-out/gen/muhanCoupon-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E29480912B800000000 /* Default-667h.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Default-667h.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E296F9DE04800000000 /* Icon@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29856440A900000000 /* Icon-60.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-60.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E298735484A00000000 /* Icon-72.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29881E000900000000 /* MuhanCouponPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MuhanCouponPasswordViewController.h; path = muhanCoupon/MuhanCouponPasswordViewController.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29881E000E00000000 /* MuhanCouponPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MuhanCouponPasswordViewController.m; path = muhanCoupon/MuhanCouponPasswordViewController.m; sourceTree = SOURCE_ROOT; };
+		1DD70E298FCB7D1900000000 /* MuhanCouponScanQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MuhanCouponScanQRCodeViewController.h; path = muhanCoupon/MuhanCouponScanQRCodeViewController.h; sourceTree = SOURCE_ROOT; };
+		1DD70E298FCB7D1E00000000 /* MuhanCouponScanQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MuhanCouponScanQRCodeViewController.m; path = muhanCoupon/MuhanCouponScanQRCodeViewController.m; sourceTree = SOURCE_ROOT; };
+		1DD70E299070556C00000000 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29A05FC39200000000 /* Icon-72@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29A21C9E7E00000000 /* AppRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppRootViewController.h; path = muhanCoupon/AppRootViewController.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29A21C9E8300000000 /* AppRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppRootViewController.m; path = muhanCoupon/AppRootViewController.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29A6018C7A00000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DD70E29A99F94B000000000 /* Icon-Small-50.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-Small-50.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29AE317AA300000000 /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DD70E29BF88817800000000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = muhanCoupon/main.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29C3B9C6B200000000 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DD70E29C51B01E200000000 /* muhanCoupon-Debug.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "muhanCoupon-Debug.xcconfig"; path = "buck-out/gen/muhanCoupon-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E29C55E775F00000000 /* MuhanCouponManualInputCouponCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MuhanCouponManualInputCouponCodeViewController.h; path = muhanCoupon/MuhanCouponManualInputCouponCodeViewController.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29C55E776400000000 /* MuhanCouponManualInputCouponCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MuhanCouponManualInputCouponCodeViewController.m; path = muhanCoupon/MuhanCouponManualInputCouponCodeViewController.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29CF84A8CC00000000 /* muhanCoupon-Profile.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "muhanCoupon-Profile.xcconfig"; path = "buck-out/gen/muhanCoupon-Profile.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E29D7CD575400000000 /* Icon.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		1DD70E29DAB1A72000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = muhanCoupon/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29DAB1A72500000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = muhanCoupon/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29E1AF142600000000 /* muhanCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = muhanCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E29E1DCBE7800000000 /* Default-568h.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Default-568h.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F426D880000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F041188565800000000 /* AVFoundation.framework in Frameworks */,
+				E7A30F04A6018C7A00000000 /* CoreGraphics.framework in Frameworks */,
+				E7A30F04AE317AA300000000 /* Foundation.framework in Frameworks */,
+				E7A30F04C3B9C6B200000000 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B401C979013EDE0500000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29E1DCBE7800000000 /* Default-568h.png */,
+				1DD70E29480912B800000000 /* Default-667h.png */,
+				1DD70E290F82B53500000000 /* Default-736h.png */,
+				1DD70E29856440A900000000 /* Icon-60.png */,
+				1DD70E293C58FAD300000000 /* Icon-60@2x.png */,
+				1DD70E298735484A00000000 /* Icon-72.png */,
+				1DD70E29A05FC39200000000 /* Icon-72@2x.png */,
+				1DD70E29A99F94B000000000 /* Icon-Small-50.png */,
+				1DD70E299070556C00000000 /* Icon-Small-50@2x.png */,
+				1DD70E29D7CD575400000000 /* Icon.png */,
+				1DD70E296F9DE04800000000 /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B401C9792F7F325000000000 /* Buck (Do Not Modify) */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29C51B01E200000000 /* muhanCoupon-Debug.xcconfig */,
+				1DD70E29CF84A8CC00000000 /* muhanCoupon-Profile.xcconfig */,
+				1DD70E29431B542E00000000 /* muhanCoupon-Release.xcconfig */,
+			);
+			name = "Buck (Do Not Modify)";
+			sourceTree = "<group>";
+		};
+		B401C97968022A5500000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E291188565800000000 /* AVFoundation.framework */,
+				1DD70E29A6018C7A00000000 /* CoreGraphics.framework */,
+				1DD70E29AE317AA300000000 /* Foundation.framework */,
+				1DD70E29C3B9C6B200000000 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B401C979B781F65D00000000 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				B401C9792F7F325000000000 /* Buck (Do Not Modify) */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		B401C979C806358400000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29E1AF142600000000 /* muhanCoupon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B401C979D6A5227300000000 /* muhanCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29001F47FB00000000 /* BUCK */,
+				B401C979013EDE0500000000 /* Resources */,
+				B401C979EAB5339800000000 /* Sources */,
+			);
+			name = muhanCoupon;
+			sourceTree = "<group>";
+		};
+		B401C979EAB5339800000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29DAB1A72000000000 /* AppDelegate.h */,
+				1DD70E29DAB1A72500000000 /* AppDelegate.m */,
+				1DD70E29A21C9E7E00000000 /* AppRootViewController.h */,
+				1DD70E29A21C9E8300000000 /* AppRootViewController.m */,
+				1DD70E29C55E775F00000000 /* MuhanCouponManualInputCouponCodeViewController.h */,
+				1DD70E29C55E776400000000 /* MuhanCouponManualInputCouponCodeViewController.m */,
+				1DD70E29881E000900000000 /* MuhanCouponPasswordViewController.h */,
+				1DD70E29881E000E00000000 /* MuhanCouponPasswordViewController.m */,
+				1DD70E298FCB7D1900000000 /* MuhanCouponScanQRCodeViewController.h */,
+				1DD70E298FCB7D1E00000000 /* MuhanCouponScanQRCodeViewController.m */,
+				1DD70E29BF88817800000000 /* main.m */,
+				1DD70E2906C06BEE00000000 /* Info.plist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B401C979EFB6AC4600000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B401C979B781F65D00000000 /* Configurations */,
+				B401C97968022A5500000000 /* Frameworks */,
+				B401C979C806358400000000 /* Products */,
+				B401C979D6A5227300000000 /* muhanCoupon */,
+			);
+			name = mainGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E66DC04ED6A5227300000000 /* muhanCoupon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218C37090000000000000000 /* Build configuration list for PBXNativeTarget "muhanCoupon" */;
+			buildPhases = (
+				1870857F0000000000000000 /* Sources */,
+				4F426D880000000000000000 /* Frameworks */,
+				8A032D2C0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = muhanCoupon;
+			productName = muhanCoupon;
+			productReference = 1DD70E29E1AF142600000000 /* muhanCoupon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C8479350C8E2F900000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					E66DC04ED6A5227300000000 = {
+						DevelopmentTeam = R6SM77FYYD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 218C37090000000000000001 /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B401C979EFB6AC4600000000 /* mainGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66DC04ED6A5227300000000 /* muhanCoupon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A032D2C0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F04E1DCBE7800000000 /* Default-568h.png in Resources */,
+				E7A30F04480912B800000000 /* Default-667h.png in Resources */,
+				E7A30F040F82B53500000000 /* Default-736h.png in Resources */,
+				E7A30F04856440A900000000 /* Icon-60.png in Resources */,
+				E7A30F043C58FAD300000000 /* Icon-60@2x.png in Resources */,
+				E7A30F048735484A00000000 /* Icon-72.png in Resources */,
+				E7A30F04A05FC39200000000 /* Icon-72@2x.png in Resources */,
+				E7A30F04A99F94B000000000 /* Icon-Small-50.png in Resources */,
+				E7A30F049070556C00000000 /* Icon-Small-50@2x.png in Resources */,
+				E7A30F04D7CD575400000000 /* Icon.png in Resources */,
+				E7A30F046F9DE04800000000 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1870857F0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F04DAB1A72500000000 /* AppDelegate.m in Sources */,
+				E7A30F04A21C9E8300000000 /* AppRootViewController.m in Sources */,
+				E7A30F04C55E776400000000 /* MuhanCouponManualInputCouponCodeViewController.m in Sources */,
+				E7A30F04881E000E00000000 /* MuhanCouponPasswordViewController.m in Sources */,
+				E7A30F048FCB7D1E00000000 /* MuhanCouponScanQRCodeViewController.m in Sources */,
+				E7A30F04BF88817800000000 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4952437303EDA63300000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E29C51B01E200000000 /* muhanCoupon-Debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R6SM77FYYD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		4952437303EDA63300000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4952437350C7218900000000 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E29CF84A8CC00000000 /* muhanCoupon-Profile.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R6SM77FYYD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Profile;
+		};
+		4952437350C7218900000001 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Profile;
+		};
+		49524373A439BFE700000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E29431B542E00000000 /* muhanCoupon-Release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R6SM77FYYD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		49524373A439BFE700000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218C37090000000000000000 /* Build configuration list for PBXNativeTarget "muhanCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437303EDA63300000000 /* Debug */,
+				4952437350C7218900000000 /* Profile */,
+				49524373A439BFE700000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218C37090000000000000001 /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437303EDA63300000001 /* Debug */,
+				4952437350C7218900000001 /* Profile */,
+				49524373A439BFE700000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C8479350C8E2F900000000 /* Project object */;
+}

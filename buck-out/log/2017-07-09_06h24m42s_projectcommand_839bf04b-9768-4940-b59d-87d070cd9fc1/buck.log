@@ -1,0 +1,39 @@
+[2017-07-09 14:24:42.818][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Starting render scheduler (interval 100 ms)
+[2017-07-09 14:24:42.901][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.google.common.util.concurrent.ServiceManager] Starting PerfStatsTracking [STARTING].
+[2017-07-09 14:24:42.902][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.google.common.util.concurrent.ServiceManager] Started PerfStatsTracking [RUNNING] in 549.0 μs.
+[2017-07-09 14:24:42.911][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.google.common.util.concurrent.ServiceManager] Starting ProcessTracker [STARTING].
+[2017-07-09 14:24:42.911][debug][command:null][tid:17][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2017-07-09 14:24:42.911][debug][command:null][tid:17][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2017-07-09 14:24:42.911][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.cli.Main] InvocationInfo BuildId=[839bf04b-9768-4940-b59d-87d070cd9fc1] Args=[project, muhanCoupon]
+[2017-07-09 14:24:42.956][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting current SSID..
+[2017-07-09 14:24:43.023][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting SSID from Wi-Fi interface: <CWInterface: 0x7ff775eb8b70> [interfaceName=en0]
+[2017-07-09 14:24:43.026][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Found SSID: Intranet
+[2017-07-09 14:24:43.037][debug][command:null][tid:17][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 126.7 ms.
+[2017-07-09 14:24:43.037][debug][command:null][tid:17][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 126.7 ms.
+[2017-07-09 14:24:43.993][warn ][command:null][tid:21][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2017-07-09 14:24:43.993][warn ][command:null][tid:21][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2017-07-09 14:24:44.018][info ][command:null][tid:22][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Starting generation of version control stats.
+[2017-07-09 14:24:44.018][info ][command:null][tid:22][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Starting generation of version control stats.
+[2017-07-09 14:24:44.026][debug][command:null][tid:22][com.facebook.buck.util.versioncontrol.VersionControlCmdLineInterface] Executing command: hg log -l 1 --template {node|short}
+[2017-07-09 14:24:44.026][debug][command:null][tid:22][com.facebook.buck.util.versioncontrol.VersionControlCmdLineInterface] Executing command: hg log -l 1 --template {node|short}
+[2017-07-09 14:24:44.049][warn ][command:null][tid:22][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Mercurial is the only VCS supported for VCS stats generation, however current project (which has enabled VCS stats generation in its .buckconfig) does not appear to be a Mercurial repository: 
+com.facebook.buck.util.versioncontrol.VersionControlCommandFailedException: java.io.IOException: Cannot run program "hg" (in directory "/Users/chengxiang/Projects/muhanCoupon"): error=2, No such file or directory
+[2017-07-09 14:24:44.049][warn ][command:null][tid:22][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Mercurial is the only VCS supported for VCS stats generation, however current project (which has enabled VCS stats generation in its .buckconfig) does not appear to be a Mercurial repository: 
+com.facebook.buck.util.versioncontrol.VersionControlCommandFailedException: java.io.IOException: Cannot run program "hg" (in directory "/Users/chengxiang/Projects/muhanCoupon"): error=2, No such file or directory
+[2017-07-09 14:24:44.049][debug][command:null][tid:22][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Using NoOpCmdLineInterface.
+[2017-07-09 14:24:44.049][debug][command:null][tid:22][com.facebook.buck.util.versioncontrol.DelegatingVersionControlCmdLineInterface] Using NoOpCmdLineInterface.
+[2017-07-09 14:24:44.052][warn ][command:null][tid:22][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Skipping generation of version control stats as unsupported repository type.
+[2017-07-09 14:24:44.052][warn ][command:null][tid:22][com.facebook.buck.util.versioncontrol.VersionControlStatsGenerator] Skipping generation of version control stats as unsupported repository type.
+[2017-07-09 14:24:49.307][info ][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.cli.Main] Awaiting termination of HTTP Write executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2017-07-09 14:24:49.308][warn ][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:20][com.facebook.buck.event.listener.LoggingBuildListener] No build file at muhanCoupon/BUCK when resolving target //muhanCoupon:muhanCoupon.
+[2017-07-09 14:24:49.309][info ][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.cli.Main] Awaiting termination of CounterAggregatorExecutor executor service. Waiting for all jobs to complete, or up to maximum of 20 seconds...
+[2017-07-09 14:24:49.314][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:17][com.facebook.buck.util.perf.ProcessTracker] shutDown
+[2017-07-09 14:24:49.315][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:16][com.google.common.util.concurrent.ServiceManager] Service PerfStatsTracking [TERMINATED] has terminated. Previous state was: STOPPING
+[2017-07-09 14:24:49.317][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2017-07-09 14:24:49.319][debug][command:839bf04b-9768-4940-b59d-87d070cd9fc1][tid:17][com.google.common.util.concurrent.ServiceManager] Service ProcessTracker [TERMINATED] has terminated. Previous state was: STOPPING
+[2017-07-09 14:24:49.358][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of CPU executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-07-09 14:24:49.358][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of PROJECT executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-07-09 14:24:49.359][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of NETWORK executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2017-07-09 14:24:49.359][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of Disk IO executor service. Waiting for all jobs to complete, or up to maximum of 10 seconds...
+[2017-07-09 14:24:49.359][debug][command:null][tid:01][com.facebook.buck.event.listener.ChromeTraceBuildListener] Writing Chrome trace to buck-out/log/2017-07-09_06h24m42s_projectcommand_839bf04b-9768-4940-b59d-87d070cd9fc1/build.2017-07-09.14-24-43.839bf04b-9768-4940-b59d-87d070cd9fc1.trace
+[2017-07-09 14:24:49.381][debug][command:null][tid:01][com.facebook.buck.cli.Main] Done.
